@@ -9,7 +9,7 @@ pipeline {
          }
            
         stage ('Send email') {
-            def mailRecipients = "singhgundeep5620@gmail.com"
+            
                 steps {
                     emailext (
                     
