@@ -1,0 +1,9 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage ('Build Stage') {
+            bat 'dotnet build dotnetapp-3.5/dotnetapp-3.5.sln'
+                              }
+           }                       
+         }
