@@ -10,7 +10,7 @@ pipeline {
             }            
          }
            
-        stage ('Send email') {
+        stage ('Send emaill') {
             
                 steps {
                     emailext (
