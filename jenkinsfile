@@ -4,7 +4,9 @@ pipeline {
     stages {
         stage ('Build Stage') {
             steps {
-                bat 'dotnet build dotnetapp-3.5/dotnetapp-3.5.sln'
+                bat 'dotnet build dotnetapp-3.5/dotnetapp-3.5.sln',
+                bat 'dotnet publish dotnetapp-3.5/dotnetapp-3.5.sln'
+                
             }            
          }
            
